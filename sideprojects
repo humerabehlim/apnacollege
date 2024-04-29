@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Level 1</title>
+   
+</head>
+<body>
+
+     <form>
+        <div style=text-align:center>
+    <h1>Employee Interests Survey Form</h1>
+
+    Enter your name:
+    <input type="text" name="username" size="35" maxlength="35" value="" required>
+    <br><br>
+    Enter your department:
+    <input type="text">
+     <br><br>
+     Tell us a little about yourself:
+     <textarea name="comments" cols="30" rows="5"></textarea>
+     <br><br>
+    Do you exercise at home?
+    <label for="id1">
+    <input type="radio" value="1" name="exe" id="id1" required>Yes
+    </label>
+    <label for="id2">
+    <input type="radio" value="2" name="exe" id="id2" required>No
+</label>
+<br><br>
+    How do you like to read about your favourite topics?<br><br>
+    <label for="1">
+    <input type="checkbox" value="1" name="Books" id="1"/>Books
+    </label>
+    <label for="2">
+    <input type="checkbox" value="2" name="Online resources" id="2"/>Online resources
+   </label>
+   <label for="3">
+    <input type="checkbox" value="3" name="Phone apps"  id="3"/>Phone apps
+    </label>
+    <label for="4">
+    <input type="checkbox" value="4" name="Magazines" id="4"/>Magazines
+    </label>
+    <br><br>
+
+    What genre of movies do you like?
+    <select>
+        <option value="1">comedy</option>
+        <option value="2">thriller</option>
+        <option value="3">rom-com</option>
+    </select>
+<br><br>
+    <button>Submit form</button>
+</div>
+</form>
+</body>
+</html>
